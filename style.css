@@ -1,0 +1,1602 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+nav {
+    background-color: #00050d;
+    color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding: 10px 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    /* position: fixed; */
+
+}
+
+.nav2 {
+    display: none;
+}
+
+nav img {
+    width: 120px;
+    height: 23px;
+}
+
+
+nav i {
+    font-size: 25px;
+}
+
+
+select {
+    font-size: 1rem;
+    background-color: #00050d;
+    color: rgb(204, 204, 204);
+    outline: none;
+    border: none;
+}
+
+.right-image {
+    background-image: url(/images/amaz-1.jpg);
+    background-repeat: no-repeat;
+    height: 69vh;
+    width: 100%;
+    background-size: cover;
+    background-position-y: 3%;
+
+}
+
+.left-image {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 69vh;
+    width: 100%;
+    background-size: cover;
+    background-position-y: 3%;
+
+
+}
+
+/* nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: 10%;
+} */
+.content-1 {
+    color: white;
+    padding: 10px 10px;
+    /* display: inline-block; */
+    align-items: center;
+
+}
+
+
+.content-1 .h-para {
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: larger;
+    font-family: 'Noto Sans', sans-serif;
+    justify-content: center;
+}
+
+.content-1 h1 {
+    margin-top: 7%;
+    margin-left: 2%;
+    padding: 11px 11px;
+    font-weight: 100;
+}
+
+.content-1 .h-para p {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 0px;
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+#button-2 {
+    /* margin-left: 72px; */
+    height: 50px;
+    width: 20%;
+    background-color: #0f79af;
+    color: #fff !important;
+    margin: 5px 0px 0 90px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: 100;
+    font-size: 18px;
+
+}
+
+#button-2:hover {
+    background-color: #3691be;
+}
+
+.content-2 .h-para-2 {
+    font-size: larger;
+    font-family: 'Noto Sans', sans-serif;
+    /* float: right; */
+    color: white;
+
+}
+
+.content-2 .h-para-2 h1 {
+    margin-top: 10%;
+    font-weight: 100;
+    margin-bottom: 3%;
+}
+
+.content-2 .h-para p {
+    padding-left: 4px;
+
+}
+
+/* .h-para-2{
+    padding-right: 10%;
+} */
+.button-2 a {
+    background-color: #0f79af;
+    color: #fff !important;
+    /* margin-top: 3%; */
+    height: 50px;
+    width: 20%;
+    padding: 15px 95px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+/* .button-2:hover {
+    background-color: #3691be;
+} */
+
+.button-2:hover a {
+    background-color: #3691be;
+}
+
+.button-2 {
+    margin-left: 0px;
+    padding-top: 50px;
+}
+
+.content-2 {
+    padding-top: 5%;
+    width: 43%;
+    float: right;
+}
+
+.content-3 {
+    width: 100%;
+    height: auto;
+}
+
+.content-3 .h-para-3 {
+    width: 50%;
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 1rem;
+    margin-top: 30px;
+    margin-left: 57px;
+
+}
+
+.content-3 .h-para-3 h1 {
+    width: 85%;
+    font-size: 44px;
+    font-weight: 300;
+    /* font-size: 1.5rem; */
+    line-height: 3rem;
+
+}
+
+.content-3 .h-para-3 p {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 25px;
+    line-height: 1.8rem;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-weight: 500;
+}
+
+
+.content-3 {
+    display: flex;
+    height: auto;
+}
+
+.content-3 .channels {
+    display: flex;
+    gap: 5px;
+    /* padding-right: 4%; */
+    margin-right: 5%;
+    padding-top: 1%;
+
+}
+
+.channels .ch1-ch2 {
+    display: flex;
+    gap: 5px;
+}
+
+.channels .ch1 img {
+    transition: 0.5s ease-in-out;
+}
+
+.channels .ch1 img:hover {
+    transform: scale(1.01);
+    box-shadow: black;
+}
+
+
+.channels img {
+    width: 230px;
+}
+
+.remote {
+    background-image: url(images/remote\ amazon.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position-y: 3%;
+}
+
+.content-4 .remote .h-para-4 {
+    color: white;
+    float: right;
+    width: 45%;
+    height: 40%;
+    font-size: larger;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 7%;
+    margin-left: 2%;
+    padding: 11px 11px;
+    font-weight: 100;
+}
+
+.h-para-4 h1 {
+    padding: 11px 11px;
+    font-weight: 100;
+}
+
+.h-para-4 p {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 0px;
+    margin-left: 2%;
+    font-size: 20px;
+
+}
+
+
+.button-3 a {
+    background-color: #0f79af;
+    color: #fff !important;
+    width: 45%;
+    margin-right: 53%;
+    margin-top: 40px;
+    padding: 15px 95px;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.button-3 a:hover {
+    background-color: #3691be;
+}
+
+.remote .h-para-4 {
+    justify-content: center;
+    padding-bottom: 30vh;
+}
+
+
+
+.cartoon-pic {
+    background-image: url(/images/IN-kids\ Amazon-website.jpg);
+    background-repeat: no-repeat;
+    height: 69vh;
+    width: 100%;
+    background-size: cover;
+    background-position-y: 3%;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.h-para-5 {
+    color: white;
+    width: 32%;
+    height: 40%;
+    font-size: larger;
+    font-family: 'Noto Sans', sans-serif;
+    /* margin-left: 2%; */
+    padding: 90px 11px;
+    font-weight: 100;
+    margin-left: 57px;
+
+}
+
+.h-para-5 h1 {
+    padding: 11px 11px;
+    font-weight: 100;
+}
+
+.h-para-5 p {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 10px;
+    margin-left: 2%;
+    font-size: 20px;
+    width: 35rem;
+}
+
+.button-4 a {
+    background-color: #0f79af;
+    color: #fff !important;
+    width: 40vh;
+    margin-top: 40px;
+    padding: 15px 95px;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.button-4 a:hover {
+    background-color: #3691be;
+}
+
+footer {
+    background-color: #222222;
+    height: 18vh;
+    text-align: center;
+}
+
+.amazon-logo2 img {
+    height: 2rem;
+    width: auto;
+    margin-top: 25px;
+}
+
+.terms-and-privacy a {
+    color: #0f79af;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.copyright {
+    color: #949494;
+    font-size: 1;
+}
+
+/* .channels .ch1 .channel-1 img{
+    transition: 0.5s ease-in-out;
+}
+
+
+.channels .ch1 .channel-1 img:hover{
+    transform: scale(1.05s);
+    box-shadow: #130d0d;
+} */
+
+
+
+
+
+
+
+
+
+/* ---------------Resposive-------------- */
+/* -------------- 1250px--------------- */
+
+@media(max-width:1250px) {
+    .channels img {
+        width: 200px;
+    }
+
+    button {
+        margin-left: 6%;
+    }
+
+    .button-4 a {
+        width: 75%;
+    }
+
+    .content-3 .h-para-3 h1 {
+        font-size: 33px;
+    }
+}
+
+/* -------------------1200px---------------- */
+
+@media(max-width:1200px) {
+    .content-1 .h-para {
+        margin-left: 0%;
+
+    }
+
+}
+
+.button-3 a {
+    margin-right: 53%;
+    padding: 12px 60px;
+    text-align: center;
+}
+
+#button-2 {
+    margin-left: 45px;
+    padding-top: 0px;
+}
+
+.button-4 a {
+    padding: 12px 35px;
+    width: 50%;
+}
+
+.h-para-5 p {
+    font-size: 15px;
+    /* margin-left: 15%; */
+
+}
+
+.content-3 .h-para-3 {
+    padding-left: 0px;
+    margin-left: 40px;
+}
+
+button {
+    height: 50px;
+    width: 20%;
+    margin-left: 7vh;
+    margin-top: 20px;
+}
+
+.button-4 a {
+    padding: 13px 60px;
+    width: 69%;
+    text-align: center;
+    /* margin-left: -10px; */
+}
+
+.content-3 .channels {
+    margin-right: 2%;
+    padding-top: 18px;
+}
+
+.h-para-5 {
+    margin-left: 19px;
+}
+
+.button-4 a {
+    margin-left: 10px;
+}
+
+
+/* ------------1150px---------- */
+
+@media(max-width:1150px) {
+    .content-1 h1 {
+        font-size: 35px;
+
+    }
+
+    .content-1 .h-para p {
+        font-size: 18px;
+
+    }
+
+    button {
+        font-size: 15px;
+        margin-left: 45px;
+
+    }
+
+    .content-2 .h-para-2,
+    .h-para-4 p {
+        font-size: 18px;
+    }
+
+    .content-2 h1 {
+        font-size: 35px;
+    }
+
+    .button-3 a {
+        margin-right: 48%;
+        padding: 15px 60px;
+        width: 50%;
+    }
+
+    .h-para-4 {
+        margin-top: 1%;
+    }
+
+    .content-4 .remote .h-para-4 {
+        margin-top: 5%;
+    }
+
+    .h-para-5 p {
+        width: 30rem;
+
+    }
+
+}
+
+/* -------------1100px-------- */
+@media(max-width:1100px) {
+
+    .content-1 h1,
+    .h-para-2 h1,
+    .content-3 .h-para-3 h1 {
+        font-size: 35px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .content-1 .h-para p,
+    .h-para-2 p {
+        font-size: 17px;
+    }
+
+    .channels img {
+        margin-top: 16px;
+        margin-right: 4px;
+        width: 155px;
+        height: 98px;
+        gap: 12px;
+    }
+
+    .h-para-5 p {
+        width: 30rem;
+        font-size: 20px;
+    }
+
+    .content-3 {
+        width: 100%;
+        height: 80vh;
+    }
+}
+
+/* --------------1050px------------ */
+@media(max-width:1050px) {
+    .content-1 .h-para h1 {
+        font-size: 40px;
+        width: 40%;
+    }
+
+    .button-4 a {
+        padding: 15px 50px;
+    }
+
+    #button-2 {
+        width: 27%;
+    }
+
+}
+
+/* -------------1000px------------- */
+@media(max-width:1000px) {
+
+    .content-1 h1,
+    .content-3 .h-para-3 h1 {
+        width: 100%;
+    }
+
+    .button-3 a {
+        margin-right: 35%;
+        width: 63%;
+
+    }
+
+    #button-2 {
+        width: 26%;
+        margin-left: 4%;
+        font-size: 15px;
+
+    }
+
+    .button-2 a {
+        font-size: 15px;
+    }
+
+    .button-4 a {
+        margin-right: 35%;
+        width: 90%;
+    }
+
+    .content-3 {
+        height: 75vh;
+    }
+
+    .content-3 .channels {
+        padding-top: 9px;
+    }
+}
+
+/* ---------------950px------------------- */
+@media(max-width:950px) {
+    .content-1 .h-para h1 {
+        font-size: 38px;
+    }
+
+    .channels img {
+        width: 130px;
+        height: 90px;
+    }
+
+    .content-1 h1,
+    .content-3 .h-para-3 h1 {
+        font-size: 30px;
+    }
+
+    .h-para-5 h1,
+    .h-para-4 h1 {
+        font-size: 2rem;
+    }
+
+    .h-para-4 p,
+    .h-para-5 p {
+        font-size: 18px;
+    }
+
+    .content-1 .h-para h1,
+    .content-2 .h-para-2 h1 {
+        font-size: 2rem;
+    }
+
+    .content-1 .h-para p,
+    .h-para-2 p {
+        font: size 17px;
+    }
+
+    .content-1 h1,
+    .content-3 .h-para-3 h1 {
+        width: 94%;
+    }
+
+    .content-3 .h-para-3 p {
+        width: 94%;
+    }
+
+    .content-3 .channels {
+        padding: 25px;
+    }
+
+    .left-image {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.1)), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
+        background-repeat: no-repeat;
+        opacity: 1;
+        height: 69vh;
+        width: 100%;
+        background-size: cover;
+        background-position-x: 69%;
+
+
+    }
+}
+
+@media(max-width: 900px) {
+
+    .content-1 h1,
+    .content-3 .h-para-3 h1 {
+        font-weight: 500;
+    }
+
+    .content-3 .h-para-3 p {
+        font-size: 17px;
+    }
+
+    .h-para-4 p,
+    .h-para-5 p {
+        font-size: 17px;
+    }
+
+    .fa-solid,
+    .fas {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+}
+
+/* ------------850px------------ */
+@media(max-width:850px) {
+    select {
+        font-size: 10px;
+    }
+
+    .content-1 h1,
+    .content-3 .h-para-3 h1 {
+        width: 110%;
+    }
+
+    .remote {
+        background-position-x: 20%;
+    }
+
+
+}
+
+@media(max-width:800px) {
+    .content-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .nav2 img {
+        height: 20px;
+        width: 100px;
+        margin-left: 20%;
+    }
+
+    select {
+        font-size: 15px;
+        position: relative;
+        margin-left: 5px;
+
+    }
+
+    .button-3 a {
+        margin-right: 29%;
+        width: 68%;
+        height: 7vh;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .remote {
+        background-position-x: 27%;
+    }
+
+    .h-para-4 p,
+    .h-para-5 p {
+        font-size: 15px;
+    }
+
+    .content-3 .channels {
+        margin-right: 0%;
+    }
+
+    .nav2 {
+        display: block;
+    }
+
+    .search {
+        float: right;
+        margin-right: 20px;
+        position: relative;
+        bottom: 5px;
+
+        /* font-size: 32px; */
+    }
+
+    .fa-magnifying-glass:before,
+    .fa-search:before {
+        font-size: 25px;
+        padding: 20px;
+        /* align-items: center; */
+        margin-bottom: 12px;
+    }
+
+    .fa-circle-user:before,
+    .fa-user-circle:before {
+        font-size: 25px;
+    }
+
+    .h-para-5 h1 {
+        width: 30rem;
+
+    }
+
+
+}
+
+@media(max-width:750px) {
+
+    .content-3 {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .content-3 .h-para-3 {
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-3 .channels {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .content-1 h1,
+    .content-3 .h-para-3 h1 {
+        width: 100%;
+    }
+
+    .button-4 a {
+        padding: 15px 25px;
+    }
+
+    .content-1 .h-para h1,
+    .content-2 .h-para-2 h1 {
+        width: auto;
+        font-size: 25px;
+
+    }
+
+    .content-1 .h-para {
+        margin-top: 18%;
+    }
+
+    .content-2 .h-para-2,
+    .h-para-4 p {
+        margin-top: 30%;
+    }
+
+    .content-3 .h-para-3 p {
+        margin-left: 17px;
+    }
+
+    .content-2 .h-para-2,
+    .h-para-4 p {
+        margin-top: 7%;
+    }
+
+}
+
+/* ----------------700px------------ */
+@media(max-width:700px) {
+    .right-image {
+        background-image: url(/images/Picsart_23-07-20_11-36-22-866.jpg);
+        height: 80vh;
+    }
+
+    .nav2 img {
+        margin-left: 15%;
+    }
+
+    .content-1 .h-para p,
+    .h-para-2 p {
+        font-size: 17px;
+    }
+
+    .content-1 .h-para {
+        margin-top: 40%;
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-1 .h-para h1,
+    .content-2 .h-para-2 h1 {
+        width: auto;
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    .content-2 {
+        padding-top: 5%;
+        width: 100%;
+        position: relative;
+        top: 20rem;
+        float: right;
+    }
+
+    #button-2 {
+        margin-left: 15%;
+        width: 75%;
+    }
+
+    .left-image {
+        background-image: url(/images/salmanbhai.jpg);
+        height: 100vh;
+
+
+    }
+
+    .h-para-2,
+    .button-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-2 a {
+        padding: 15px 225px;
+    }
+
+    .content-4 .remote .h-para-4 {
+        position: relative;
+        top: 20rem;
+        width: 100%;
+    }
+
+    .remote {
+        background-image: url(/images/edited\ remote.jpg);
+        height: 105vh;
+
+    }
+
+    .content-4 .remote .h-para-4 {
+        text-align: center;
+    }
+
+    .button-3 a {
+        width: 66%;
+        padding-left: 65px;
+        margin-right: 15%;
+        font-size: 18px;
+        height: 8vh;
+    }
+
+    .h-para-5 h1,
+    .h-para-4 h1 {
+        position: relative;
+        top: 35px;
+        font-weight: 400;
+    }
+
+    .cartoon-pic {
+        background-image: url(/images/cartoon-edit.jpg);
+        height: 105vh;
+    }
+
+    .h-para-5 {
+        position: relative;
+        top: 40%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .h-para-4 p,
+    .h-para-5 p {
+        text-align: center;
+    }
+
+    .h-para-5 p {
+        position: relative;
+        left: 47%;
+        top: 30%;
+    }
+
+    .h-para-5 h1 {
+        margin: 0;
+        margin-left: 090px;
+        text-align: center;
+    }
+
+    .button-4 a {
+        width: 30rem;
+        position: relative;
+        top: 30px;
+        left: 76px;
+    }
+}
+
+/* ---------------650px--------------- */
+@media(max-width:650px) {
+    .nav2 img {
+        position: relative;
+        top: 3px;
+    }
+}
+
+/* ----------------600px--------------- */
+@media(max-width:600px) {
+
+    .content-1 .h-para h1,
+    .content-2 .h-para-2 h1 {
+        font-size: 30px;
+    }
+
+    .content-1 .h-para {
+        margin-top: 50%;
+    }
+
+    #button-2 {
+        margin-left: 16%;
+        width: 70%;
+    }
+
+    .content-1 .h-para p,
+    .h-para-2 p {
+        font-size: 15px;
+    }
+
+    .button-2 a {
+        padding: 13px 175px;
+    }
+
+    .button-4 a {
+        width: 25rem;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .h-para-5 h1,
+    .h-para-4 h1 {
+        font-size: 30px;
+    }
+
+    .h-para-4 p {
+        margin-top: 13%;
+    }
+
+    .h-para-5 h1,
+    .h-para-4 h1 {
+        position: relative;
+        top: 60px;
+    }
+
+    .h-para-5 h1 {
+        position: relative;
+        top: 60px;
+        right: 40px;
+    }
+
+    .h-para-5 p {
+        position: relative;
+        left: 20%;
+        top: 45%;
+    }
+
+    .cartoon-pic {
+        background-image: url(/images/cartoon-edit.jpg);
+        height: 85vh;
+    }
+
+    .h-para-5 h1 {
+        position: relative;
+        top: 30px;
+    }
+
+    .button-4 a {
+        top: 0;
+    }
+}
+
+/* ---------------550px------------ */
+@media(max-width:550px) {
+    .content-1 .h-para h1 {
+        margin-top: 60%;
+    }
+
+    .content-2 .h-para-2 h1 {
+        margin-top: 22%;
+    }
+
+    .nav2 img {
+        margin-left: 5%;
+    }
+
+    #button-2 {
+        width: 50%;
+        margin-left: 26%;
+    }
+
+    .button-2 a {
+        padding: 12px 100px;
+    }
+
+    .button-3 a {
+        width: 15rem;
+        margin-right: 25%;
+    }
+
+    .button-4 a {
+        width: 15rem;
+        margin-left: 40%;
+    }
+
+    .h-para-5 h1 {
+        position: relative;
+        right: 80px;
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .h-para-5 p {
+        position: relative;
+        left: 4px;
+        font-size: 12px;
+    }
+
+    .h-para-4 p {
+        font-size: 12px;
+        width: auto;
+    }
+
+    .content-4 .remote .h-para-4 {
+        position: relative;
+        top: 22rem;
+    }
+
+    .content-1 .h-para h1,
+    .content-2 .h-para-2 h1 {
+        font-size: 27px;
+    }
+
+    .cartoon-pic {
+        height: 85vh;
+    }
+
+    .fa-circle-user:before,
+    .fa-user-circle:before {
+        font-size: 23px;
+    }
+
+    .fa-magnifying-glass:before,
+    .fa-search:before {
+        font-size: 22px;
+    }
+}
+
+/* -----------500px-------- */
+@media(max-width:500px) {
+    .nav2 {
+        height: 40px;
+    }
+
+    select {
+        /* margin-left:20px; */
+        font-size: 12px;
+    }
+
+    .nav2 img {
+        height: 17px;
+        width: auto;
+        margin-left: 10%;
+    }
+
+    .fa-circle-user:before,
+    .fa-user-circle:before {
+        font-size: 20px;
+    }
+
+    .fa-magnifying-glass:before,
+    .fa-search:before {
+        font-size: 18px;
+    }
+
+    .right-image {
+        height: 75vh;
+    }
+
+    .left-image {
+        height: 94vh;
+    }
+
+    .cartoon-pic {
+        height: 80vh;
+    }
+
+    .content-3 .h-para-3 h1 {
+        width: auto;
+        font-size: 25px;
+    }
+
+    .button-3 a {
+        margin-right: 22%;
+    }
+
+    .content-3 .h-para-3 p {
+        font-size: 16px;
+    }
+
+    .h-para-5 h1 {
+        position: relative;
+        right: 80%;
+        top: 45%;
+    }
+
+    .h-para-5 p {
+        position: relative;
+        bottom: 12px;
+        left: 17px;
+        text-align: center;
+        width: 25rem;
+    }
+
+    .h-para-5 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cartoon-pic {
+        height: 70vh;
+    }
+
+    .button-4 a {
+        width: 15rem;
+        margin-left: 20%;
+        position: relative;
+        top: 70px;
+    }
+
+}
+
+/* -----------------450---------------- */
+@media(max-width:450px) {
+    .nav2 img {
+        margin-left: 1%;
+    }
+
+    .h-para-5 p {
+        width: 23rem;
+    }
+
+    .h-para-5 h1 {
+        position: relative;
+        right: 127%;
+        top: 45%;
+        font-size: 25px;
+    }
+
+    .channels img {
+        width: auto;
+        height: 80px;
+    }
+
+    .amazon-logo2 img {
+        height: 25px;
+        margin-top: 15px;
+    }
+
+    .terms-and-privacy a {
+        font-size: 13px;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+
+    .h-para-5 h1 {
+        font-size: 20px;
+    }
+
+    .content-2 .h-para-2 h1 {
+        font-size: 23px;
+    }
+
+    .content-1 .h-para p,
+    .h-para-2 p {
+        font-size: 13px;
+    }
+
+    .right-image {
+        height: 67vh;
+    }
+
+
+}
+
+/* -------------400px--------------- */
+@media(max-width:400px) {
+    .fa-magnifying-glass:before {
+        font-size: 15px;
+    }
+
+    .fa-search:before {
+        position: relative;
+        top: 2%;
+    }
+
+    .fa-solid,
+    .fas {
+        font-size: 15px;
+        position: relative;
+        bottom: 18px;
+    }
+
+    .fa-solid {
+        margin-top: 17px;
+    }
+
+    select {
+        font-size: 10px;
+    }
+
+    .nav2 img {
+        margin-left: 1%;
+    }
+
+    .h-para-5 p {
+        width: 20rem;
+    }
+
+    .h-para-5 h1 {
+        position: relative;
+        right: 200%;
+        top: 45%;
+        font-size: 23px;
+    }
+
+    #button-2 {
+        width: 40%;
+        font-size: 12px;
+        height: 40px;
+        margin-left: 32%;
+
+    }
+
+    .button-2 a {
+        padding: 12px 50px;
+        font-size: 12px;
+    }
+
+    .button-3 a {
+        /* margin-right: 18%; */
+        width: 57%;
+        font-size: 12px;
+        height: 38px;
+    }
+
+    .button-4 a {
+        margin-left: 15%;
+        width: 150%;
+        font-size: 12px;
+
+    }
+
+    .h-para-5 h1,
+    .h-para-4 h1 {
+        font-size: 18px;
+    }
+
+    .h-para-4 p {
+        margin-top: 22%;
+    }
+
+    .channels img {
+        width: auto;
+        height: 55px;
+    }
+
+    .amazon-logo2 img {
+        height: 15px;
+        margin-top: 15px;
+    }
+
+    .terms-and-privacy a {
+        font-size: 13px;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+
+    .h-para-5 h1 {
+        font-size: 20px;
+    }
+
+    .content-2 .h-para-2 h1 {
+        font-size: 23px;
+    }
+
+    .content-1 .h-para p,
+    .h-para-2 p {
+        font-size: 13px;
+    }
+
+    .right-image {
+        height: 67vh;
+    }
+
+    .amazon-logo2 img {
+        height: 23px;
+        margin-top: 20px;
+    }
+
+    footer {
+        height: 15vh;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+
+    .terms-and-privacy a {
+        font-size: 12px;
+    }
+}
+
+/* -------------350------------------ */
+@media(max-width:350px) {
+    .nav2 {
+        height: 30px;
+        align-items: center;
+    }
+
+    .nav2 img {
+        height: 15px;
+    }
+
+    .fa-circle-user:before,
+    .fa-user-circle:before {
+        font-size: 15px;
+    }
+
+    select {
+        font-size: 10px;
+    }
+
+    .search {
+        float: right;
+        margin-right: 10px;
+        position: relative;
+        bottom: 26px;
+    }
+
+    .h-para-5 h1 {
+        position: relative;
+        right: 280%;
+        font-size: 15px;
+    }
+
+    .h-para-5 p {
+        width: 17rem;
+    }
+
+    .button-3 a {
+        width: 20px;
+
+    }
+
+    .button-4 a {
+        width: 120%;
+        font-size: 10px;
+    }
+
+    footer {
+        height: 20vh;
+    }
+}
+
+/* -----------350px--------------- */
+@media(max-width:350px) {
+    #categories2 {
+        display: none;
+    }
+
+    .nav2 {
+        height: 40px;
+    }
+
+    .search {
+        margin-right: 10px;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .nav2 img {
+        margin-left: 16%;
+    }
+
+    .right-image {
+        height: 45vh;
+    }
+    .left-image {
+        height: 50vh;
+    }
+    .content-2{
+        top: 8rem;
+    }
+    .content-2 .h-para-2 h1{
+        margin-top: 50%;
+    }
+   
+
+    .content-1 .h-para h1 {
+        font-size: 17px;
+        margin-top: 40%;
+    }
+    .content-2 .h-para-2 h1 {
+        font-size: 17px;
+    }
+
+    .content-1 .h-para p {
+        font-size: 11px;
+    }
+    #button-2 {
+
+        width: 38%;
+        font-size: 11px;
+        height: 32px;
+        margin-left: 36%;
+        margin: 3px 0px 0px 97px;
+
+    }
+    .button-2{
+        padding-top: 4%;
+    }
+
+    .button-2 a {
+        padding: 9px 36px;
+        font-size: 11px;
+    }
+
+    .remote {
+        height: 60vh;
+    }
+
+    .content-4 .remote .h-para-4 {
+        position: relative;
+        top: 8rem;
+    }
+
+    .button-3 a {
+        width: 12rem;
+        margin-right: 60px;
+        position: relative;
+        bottom: 30px;
+    }
+    
+    .button-3 a {
+        padding: 10px 1px;
+        width: 54%;
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .h-para-4 h1 {
+        font-size: 15px;
+    }
+
+    .h-para-4 p {
+        font-size: 11px;
+    }
+
+    .left-image {
+        height: 50.5vh;
+    }
+
+    .content-2 .h-para-2 {
+        margin-top: -25%;
+    }
+
+    .h-para h1 .h-para {
+        font-size: 20px;
+    }
+    .cartoon-pic {
+        height: 55vh;
+        
+    }
+    .button-4 a {
+    top: 27px;
+    width: 150%;
+    margin-left: 5%;
+    font-size: 11px;
+    }
+
+
+
+
+
+
+}
