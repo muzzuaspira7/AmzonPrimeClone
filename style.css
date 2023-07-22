@@ -106,12 +106,11 @@ select {
 }
 
 #button-2 {
-    /* margin-left: 72px; */
+    margin-left: 90px;
     height: 50px;
     width: 20%;
     background-color: #0f79af;
     color: #fff !important;
-    margin: 5px 0px 0 90px;
     cursor: pointer;
     border-style: none;
     border-radius: 3px;
@@ -210,7 +209,7 @@ select {
     margin-top: 25px;
     line-height: 1.8rem;
     /* font-family: 'Quicksand', sans-serif; */
-    font-weight: 500;
+    font-weight: 300;
 }
 
 
@@ -241,6 +240,25 @@ select {
     transform: scale(1.01);
     box-shadow: black;
 }
+
+.channels .ch2 img {
+    transition: 0.5s ease-in-out;
+}
+
+.channels .ch2 img:hover {
+    transform: scale(1.01);
+    box-shadow: black;
+}
+
+.channels .ch3 img {
+    transition: 0.5s ease-in-out;
+}
+
+.channels .ch3 img:hover {
+    transform: scale(1.01);
+    box-shadow: black;
+}
+
 
 
 .channels img {
@@ -444,19 +462,13 @@ footer {
 }
 
 #button-2 {
-    margin-left: 45px;
+
     padding-top: 0px;
 }
 
 .button-4 a {
     padding: 12px 35px;
     width: 50%;
-}
-
-.h-para-5 p {
-    font-size: 15px;
-    /* margin-left: 15%; */
-
 }
 
 .content-3 .h-para-3 {
@@ -673,10 +685,12 @@ button {
     .content-1 h1,
     .content-3 .h-para-3 h1 {
         width: 94%;
+        /* font-weight: 400; */
     }
 
     .content-3 .h-para-3 p {
         width: 94%;
+        /* font-weight: 300; */
     }
 
     .content-3 .channels {
@@ -1501,21 +1515,25 @@ button {
     .right-image {
         height: 45vh;
     }
+
     .left-image {
         height: 50vh;
     }
-    .content-2{
+
+    .content-2 {
         top: 8rem;
     }
-    .content-2 .h-para-2 h1{
+
+    .content-2 .h-para-2 h1 {
         margin-top: 50%;
     }
-   
+
 
     .content-1 .h-para h1 {
         font-size: 17px;
         margin-top: 40%;
     }
+
     .content-2 .h-para-2 h1 {
         font-size: 17px;
     }
@@ -1523,6 +1541,7 @@ button {
     .content-1 .h-para p {
         font-size: 11px;
     }
+
     #button-2 {
 
         width: 38%;
@@ -1532,7 +1551,8 @@ button {
         margin: 3px 0px 0px 97px;
 
     }
-    .button-2{
+
+    .button-2 {
         padding-top: 4%;
     }
 
@@ -1556,7 +1576,7 @@ button {
         position: relative;
         bottom: 30px;
     }
-    
+
     .button-3 a {
         padding: 10px 1px;
         width: 54%;
@@ -1583,15 +1603,23 @@ button {
     .h-para h1 .h-para {
         font-size: 20px;
     }
+
     .cartoon-pic {
         height: 55vh;
-        
+
     }
+
+    .h-para-5 h1 {
+        position: relative;
+        right: 250%;
+        font-size: 15px;
+    }
+
     .button-4 a {
-    top: 27px;
-    width: 150%;
-    margin-left: 5%;
-    font-size: 11px;
+        top: 27px;
+        width: 150%;
+        margin-left: 5%;
+        font-size: 11px;
     }
 
 
